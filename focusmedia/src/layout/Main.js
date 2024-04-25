@@ -2,6 +2,9 @@ import React from 'react';
 import video from '../files/videos/FocusMedia_Kick_off.mp4';
 
 function Main() {
+
+    const isMobile = window.innerWidth <= 600;
+
     return (
         <main>
             <section id="section1" style={{
@@ -18,12 +21,14 @@ function Main() {
                         position: 'absolute',
                         top: '50%',
                         left: '50%',
-                        transform: 'translate(-50%, -50%)'  // Center the video
+                        transform: 'translate(-50%, -50%)',  // Center the video
+                        pointerEvents: isMobile ? 'none' : 'auto'  // Disables clicking on mobile
                     }}
                     src={video} 
                     autoPlay 
                     muted 
                     loop 
+                    playsInline
                 >
                     Your browser does not support the video tag.
                 </video>
