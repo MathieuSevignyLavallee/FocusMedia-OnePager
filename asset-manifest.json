@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/FocusMedia-OnePager/static/css/main.beb10f8f.css",
-    "main.js": "/FocusMedia-OnePager/static/js/main.dd68cfa1.js",
+    "main.css": "/FocusMedia-OnePager/static/css/main.27825762.css",
+    "main.js": "/FocusMedia-OnePager/static/js/main.3ed8ec67.js",
     "static/js/453.61a56487.chunk.js": "/FocusMedia-OnePager/static/js/453.61a56487.chunk.js",
     "static/media/FocusMedia_Kick_off.mp4": "/FocusMedia-OnePager/static/media/FocusMedia_Kick_off.05a8187b9947b4a8cd59.mp4",
     "static/media/HorizontalClearLogo.png": "/FocusMedia-OnePager/static/media/HorizontalClearLogo.477d9f1b9253c4f1da54.png",
     "index.html": "/FocusMedia-OnePager/index.html",
-    "main.beb10f8f.css.map": "/FocusMedia-OnePager/static/css/main.beb10f8f.css.map",
-    "main.dd68cfa1.js.map": "/FocusMedia-OnePager/static/js/main.dd68cfa1.js.map",
+    "main.27825762.css.map": "/FocusMedia-OnePager/static/css/main.27825762.css.map",
+    "main.3ed8ec67.js.map": "/FocusMedia-OnePager/static/js/main.3ed8ec67.js.map",
     "453.61a56487.chunk.js.map": "/FocusMedia-OnePager/static/js/453.61a56487.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.beb10f8f.css",
-    "static/js/main.dd68cfa1.js"
+    "static/css/main.27825762.css",
+    "static/js/main.3ed8ec67.js"
   ]
 }
