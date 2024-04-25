@@ -4,31 +4,77 @@ body, html {
   padding: 0;
   font-family: Arial, sans-serif;
   color: white;
-  background-color: black; /* Set black background for the entire page */
+  background-color: black;
   scroll-behavior: smooth;
 }
 
 /* Header styles */
 header {
-  background-color: #333; /* Dark grey background */
-  color: #fff; /* White text */
-  padding: 20px;
-  text-align: center;
-  font-size: 24px;
-  border-bottom: 2px solid #555; /* Slight border to distinguish the sections */
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px; /* Reduced padding */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  height: 60px; /* Smaller logo for mobile */
+  width: auto;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 5px; /* Reduced margin for mobile */
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin: 5px 0; /* Stack vertically with space between */
+  }
+  
+  main section {
+    height: 300px; /* Adjust section heights for smaller screens */
+  }
+  
+  main section#section1 {
+    height: 50vh; /* Dynamic height for video section */
+  }
 }
 
 /* Main section styles */
 main {
-  padding: 40px 20px;
+  padding: 20px 10px;
   text-align: center;
-  border-bottom: 2px solid #555; /* Slight border to distinguish the sections */
+  border-bottom: 2px solid #555;
 }
 
 /* Footer styles */
 footer {
-  background-color: #222; /* Even darker background */
-  color: #aaa; /* Lighter text */
+  background-color: #222;
+  color: #aaa;
   padding: 10px;
   text-align: center;
   font-size: 18px;
