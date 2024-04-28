@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/FocusMedia-OnePager/static/css/main.be428b24.css",
+    "main.css": "/FocusMedia-OnePager/static/css/main.2584c020.css",
     "main.js": "/FocusMedia-OnePager/static/js/main.4449740c.js",
     "static/js/453.61a56487.chunk.js": "/FocusMedia-OnePager/static/js/453.61a56487.chunk.js",
     "static/media/FocusMedia_Kick_off.mp4": "/FocusMedia-OnePager/static/media/FocusMedia_Kick_off.05a8187b9947b4a8cd59.mp4",
@@ -15,12 +15,12 @@
     "static/media/tinywow_DSC08469_52763549.png": "/FocusMedia-OnePager/static/media/tinywow_DSC08469_52763549.90c88c2745579f607bf4.png",
     "static/media/HorizontalClearLogo.png": "/FocusMedia-OnePager/static/media/HorizontalClearLogo.477d9f1b9253c4f1da54.png",
     "index.html": "/FocusMedia-OnePager/index.html",
-    "main.be428b24.css.map": "/FocusMedia-OnePager/static/css/main.be428b24.css.map",
+    "main.2584c020.css.map": "/FocusMedia-OnePager/static/css/main.2584c020.css.map",
     "main.4449740c.js.map": "/FocusMedia-OnePager/static/js/main.4449740c.js.map",
     "453.61a56487.chunk.js.map": "/FocusMedia-OnePager/static/js/453.61a56487.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be428b24.css",
+    "static/css/main.2584c020.css",
     "static/js/main.4449740c.js"
   ]
 }
