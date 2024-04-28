@@ -1,93 +1,130 @@
-/* General styles for the whole app */
-body, html {
+body {
+  font-family: 'bai jamjuree', sans-serif;
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
-  color: white;
-  background-color: black;
-  scroll-behavior: smooth;
+  background-color: #000; 
+  color: white; 
 }
 
-/* Header styles */
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 20px; /* Reduced padding */
+header, footer {
+  background-color: #333; 
+  color: white;
+  padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
 }
 
-img {
-  height: 60px; /* Smaller logo for mobile */
-  width: auto;
-}
-
-nav ul {
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-nav ul li {
-  margin: 0 5px; /* Reduced margin for mobile */
-}
-
-nav ul li a {
-  color: white;
+a {
+  color: #59c7f9;
   text-decoration: none;
 }
 
-/* Responsive adjustments */
-@media (max-width: 600px) {
-  header {
-    flex-direction: column;
-    text-align: center;
-  }
-  
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  nav ul li {
-    margin: 5px 0; /* Stack vertically with space between */
-  }
-  
-  main section {
-    height: 300px; /* Adjust section heights for smaller screens */
-  }
-  
-  main section#section1 {
-    height: 50vh; /* Dynamic height for video section */
-  }
+a:hover {
+  text-decoration: underline;
 }
 
-/* Main section styles */
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* Styles pour le header */
+header img {
+  height: 60px;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
 main {
-  padding: 20px 10px;
+  padding: 20px;
   text-align: center;
-  border-bottom: 2px solid #555;
 }
 
-/* Footer styles */
-footer {
-  background-color: #222;
-  color: #aaa;
+.services-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service-item {
+  margin: 20px;
   padding: 10px;
+  background-color: #222; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); 
+  width: 300px; 
   text-align: center;
   font-size: 18px;
 }
 
-/* Ensures the content fills at least the full height of the screen */
-.App {
+/* Styles pour le footer */
+footer {
   display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  justify-content: center;
+  padding: 20px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5); 
+  height: 200px;
 }
 
-/* Allow main to expand flexibly */
-main {
+.footer-info, .footer-email {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.footer-email form {
+  width: 100%;
+}
+
+input[type="email"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #222;
+  color: white;
+}
+
+button {
+  background-color: #ff0000;
+  border: none;
+  padding: 15px 30px; 
+  border-radius: 8px; 
+  font-size: 18px; 
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); 
+}
+
+button:hover {
+  background-color: #cc0000;
+}
+
+/* Styles spécifiques pour le bouton de booking */
+.button {
+  font-weight: bold; /* Rend le texte en gras */
+  letter-spacing: 1px; /* Espacement des lettres pour un look premium */
+  width: auto; /* Permet au bouton de s'adapter au texte */
+  display: inline-block; /* Assure que le bouton est bien aligné */
+  margin-top: 20px; /* Espacement au-dessus pour délimiter clairement des autres éléments */
+}
+
+p {
+  color: #cec7c7;
 }

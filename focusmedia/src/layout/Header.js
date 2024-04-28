@@ -1,5 +1,7 @@
 import React from 'react';
-import logo from '../files/images/HorizontalClearLogo.png';  // Import the logo
+import logo from '../files/images/HorizontalClearLogo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faTiktok } from '@fortawesome/free-brands-svg-icons';
 
 function Header() {
     return (
@@ -12,12 +14,12 @@ function Header() {
             <img src={logo} alt="Logo" style={{
                 height: '60px',
                 width: 'auto',
-                marginLeft: '2%',  // Added left margin for the logo
-                marginRight: 'auto'  // Pushes the logo slightly to the right
+                marginLeft: '2%',
+                marginRight: 'auto'
             }} />
             <nav style={{
-                marginLeft: 'auto',  // Pushes the nav slightly to the right
-                marginRight: '2%'  // Added right margin for the nav
+                marginLeft: 'auto',
+                marginRight: '2%'
             }}>
                 <ul style={{
                     listStyleType: 'none',
@@ -28,13 +30,20 @@ function Header() {
                     flexWrap: 'wrap'
                 }}>
                     <li style={{ margin: '0 10px' }}>
-                        <a href="#section1" style={{ color: 'white', textDecoration: 'none' }}>Section 1</a>
+                        <a href="#section3" style={{ color: 'white', textDecoration: 'none' }}><h4>Services</h4></a>
                     </li>
                     <li style={{ margin: '0 10px' }}>
-                        <a href="#section2" style={{ color: 'white', textDecoration: 'none' }}>Section 2</a>
+                        <a href="#footer" style={{ color: 'white', textDecoration: 'none' }}><h4>Contact</h4></a>
                     </li>
                     <li style={{ margin: '0 10px' }}>
-                        <a href="#section3" style={{ color: 'white', textDecoration: 'none' }}>Section 3</a>
+                        <a href="https://www.instagram.com/thisisfocusmedia" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'none' }}>
+                            <h4><FontAwesomeIcon icon={faInstagram} /></h4>
+                        </a>
+                    </li>
+                    <li style={{ margin: '0 10px' }}>
+                        <a href="https://www.tiktok.com/@thisisfocusmedia" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'none' }}>
+                            <h4><FontAwesomeIcon icon={faTiktok} /></h4>
+                        </a>
                     </li>
                 </ul>
             </nav>
