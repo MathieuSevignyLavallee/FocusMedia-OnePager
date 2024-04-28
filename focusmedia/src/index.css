@@ -128,3 +128,39 @@ button:hover {
 p {
   color: #cec7c7;
 }
+
+@media (max-width: 600px) {
+  header img {
+    height: 40px; /* Smaller logo for mobile */
+  }
+
+  .service-item {
+    width: 100%; /* Full width on mobile for better visibility */
+    margin: 10px 0; /* Reduced margin */
+  }
+
+  header {
+    flex-direction: column; /* Stack elements vertically in smaller screens */
+    text-align: center;
+  }
+
+  .footer-info, .footer-email {
+    margin: 10px 10px;
+  }
+
+  main {
+    padding: 10px; /* Reduced padding */
+  }
+
+  button {
+    padding: 12px 24px; /* Slightly smaller buttons */
+  }
+
+  header nav ul {
+    flex-direction: column; /* Stack nav items vertically */
+  }
+
+  header nav ul li {
+    margin: 5px 0; /* Reduced margin */
+  }
+}
