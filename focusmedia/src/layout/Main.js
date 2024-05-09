@@ -44,7 +44,7 @@ function Main() {
             <section id="section1" style={{
                 position: 'relative',
                 width: '100%',
-                height: '50vh',  // Use viewport height for responsive sizing
+                height: isMobile ? '50vh' : '75vh',  // Use viewport height for responsive sizing
                 overflow: 'hidden'
             }}>
                 <video
