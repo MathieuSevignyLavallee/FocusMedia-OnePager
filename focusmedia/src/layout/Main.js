@@ -1,11 +1,12 @@
 import React from 'react';
 import video from '../files/videos/FocusMedia_Kick_off.mp4';
-import { Pagination } from 'swiper/modules';
+import { Pagination, Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 function Main() {
 
@@ -77,7 +78,8 @@ function Main() {
                         pagination={{
                             clickable: true,
                         }}
-                        modules={[Pagination]}
+                        navigation={true}
+                        modules={[Pagination,Navigation ]}
                         className="mySwiper"
                     >
                         <SwiperSlide><img src={require("../files/images/slideshow/DSC05531.jpg")}></img></SwiperSlide>
