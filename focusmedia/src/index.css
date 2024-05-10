@@ -164,3 +164,7 @@ p {
     margin: 5px 0; /* Reduced margin */
   }
 }
+
+.swiper-button-prev, .swiper-button-next{
+  color:white !important;
+}
