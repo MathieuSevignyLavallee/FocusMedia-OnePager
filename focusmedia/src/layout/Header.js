@@ -33,6 +33,9 @@ function Header() {
                         <a href="#section3" style={{ color: 'white', textDecoration: 'none' }}><h4>Services</h4></a>
                     </li>
                     <li style={{ margin: '0 10px' }}>
+                        <a href="#price" style={{ color: 'white', textDecoration: 'none' }}><h4>Réservation/Prix</h4></a>
+                    </li>
+                    <li style={{ margin: '0 10px' }}>
                         <a href="#footer" style={{ color: 'white', textDecoration: 'none' }}><h4>Contact</h4></a>
                     </li>
                     <li style={{ margin: '0 10px' }}>
