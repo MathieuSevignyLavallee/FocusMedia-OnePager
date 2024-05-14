@@ -162,6 +162,30 @@ p {
   header nav ul li {
     margin: 5px 0; /* Reduced margin */
   }
+
+  .item2 p {
+    color: 'white';
+    font-size: 1.2rem !important;
+  }
+  
+  .item3 p, .item3 a {
+    color: #8b8a8a;
+    font-size: 0.8rem !important;
+  }
+
+  .grid-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    border: 1px solid black;
+    font-size: 5px;
+  }
+
 }
 
 .swiper-button-prev, .swiper-button-next{

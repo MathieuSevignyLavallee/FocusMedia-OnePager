@@ -4,6 +4,8 @@ import emailjs from "emailjs-com";
 
 function Footer() {
 
+    const isMobile = window.innerWidth <= 600;
+
     function sendEmail(e) {
         e.preventDefault();
 
@@ -59,7 +61,7 @@ function Footer() {
             <div class="grid-container">
                 <div class="item1" style={{ borderBottomColor: 'white', alignContent: 'left' }}>
                     <img src={logo} alt="Logo" style={{
-                        height: '60px',
+                        height: isMobile ? '50px' : '60px',
                         width: 'auto',
                         marginLeft: '10px'
                     }} />

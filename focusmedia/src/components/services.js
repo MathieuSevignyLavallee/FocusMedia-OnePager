@@ -48,7 +48,7 @@ function Services() {
 
             <ScrollAnimation animateIn='bounceInRight' animateOnce={true}>
                 <div class="card">
-                    <img src={require("../files/images/services/photo-interieur.jpeg")} alt="Placeholder Image" />
+                    <img src={require("../files/images/services/v-staging.jpg")} alt="Placeholder Image" />
                     <div class="card-content">
                         <h2 class="card-title">Staging virtuel</h2>
                         <p class="card-text">Notre service de staging virtuel transforme virtuellement les espaces vides en intérieurs chaleureux et accueillants. Que ce soit pour les biens immobiliers vides ou pour réaménager des espaces existants, notre staging virtuel permet aux acheteurs potentiels de se projeter dans la propriété, facilitant ainsi la vente en mettant en valeur le potentiel de chaque pièce. Avec notre service de staging virtuel, nous vous offrons un moyen efficace de maximiser l'attrait de votre propriété sur le marché immobilier.</p>
