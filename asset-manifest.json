@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/FocusMedia-OnePager/static/css/main.e415c0f5.css",
-    "main.js": "/FocusMedia-OnePager/static/js/main.0fe6e48d.js",
+    "main.css": "/FocusMedia-OnePager/static/css/main.7a71fb66.css",
+    "main.js": "/FocusMedia-OnePager/static/js/main.8a3335fe.js",
     "static/js/453.61a56487.chunk.js": "/FocusMedia-OnePager/static/js/453.61a56487.chunk.js",
     "static/media/FocusMedia_Kick_off.mp4": "/FocusMedia-OnePager/static/media/FocusMedia_Kick_off.05a8187b9947b4a8cd59.mp4",
     "static/media/image16.jpg": "/FocusMedia-OnePager/static/media/image16.2f9107fbe09aa1bac038.jpg",
@@ -29,12 +29,12 @@
     "static/media/photo-drone.jpeg": "/FocusMedia-OnePager/static/media/photo-drone.078f668273e87c574acf.jpeg",
     "static/media/HorizontalClearLogo.png": "/FocusMedia-OnePager/static/media/HorizontalClearLogo.477d9f1b9253c4f1da54.png",
     "index.html": "/FocusMedia-OnePager/index.html",
-    "main.e415c0f5.css.map": "/FocusMedia-OnePager/static/css/main.e415c0f5.css.map",
-    "main.0fe6e48d.js.map": "/FocusMedia-OnePager/static/js/main.0fe6e48d.js.map",
+    "main.7a71fb66.css.map": "/FocusMedia-OnePager/static/css/main.7a71fb66.css.map",
+    "main.8a3335fe.js.map": "/FocusMedia-OnePager/static/js/main.8a3335fe.js.map",
     "453.61a56487.chunk.js.map": "/FocusMedia-OnePager/static/js/453.61a56487.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e415c0f5.css",
-    "static/js/main.0fe6e48d.js"
+    "static/css/main.7a71fb66.css",
+    "static/js/main.8a3335fe.js"
   ]
 }
