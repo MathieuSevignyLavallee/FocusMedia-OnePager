@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/FocusMedia-OnePager/static/css/main.7a22a5ba.css",
-    "main.js": "/FocusMedia-OnePager/static/js/main.03605e3c.js",
+    "main.css": "/FocusMedia-OnePager/static/css/main.e415c0f5.css",
+    "main.js": "/FocusMedia-OnePager/static/js/main.3061b6a0.js",
     "static/js/453.61a56487.chunk.js": "/FocusMedia-OnePager/static/js/453.61a56487.chunk.js",
     "static/media/FocusMedia_Kick_off.mp4": "/FocusMedia-OnePager/static/media/FocusMedia_Kick_off.05a8187b9947b4a8cd59.mp4",
     "static/media/image16.jpg": "/FocusMedia-OnePager/static/media/image16.2f9107fbe09aa1bac038.jpg",
@@ -21,6 +21,7 @@
     "static/media/image9.jpg": "/FocusMedia-OnePager/static/media/image9.fef161cf8fd3f05f2385.jpg",
     "static/media/image11.jpg": "/FocusMedia-OnePager/static/media/image11.c2e73a1f9f2508b9f58b.jpg",
     "static/media/image1.jpg": "/FocusMedia-OnePager/static/media/image1.9133ad980174c4e19800.jpg",
+    "static/media/v-staging.jpg": "/FocusMedia-OnePager/static/media/v-staging.beb6c9fb73dc13d634f9.jpg",
     "static/media/image5.jpg": "/FocusMedia-OnePager/static/media/image5.2053d1d3e8082695a31c.jpg",
     "static/media/video.jpg": "/FocusMedia-OnePager/static/media/video.e82772bacf7a33091445.jpg",
     "static/media/photo-interieur.jpeg": "/FocusMedia-OnePager/static/media/photo-interieur.928949ff912840df11b7.jpeg",
@@ -28,12 +29,12 @@
     "static/media/photo-drone.jpeg": "/FocusMedia-OnePager/static/media/photo-drone.078f668273e87c574acf.jpeg",
     "static/media/HorizontalClearLogo.png": "/FocusMedia-OnePager/static/media/HorizontalClearLogo.477d9f1b9253c4f1da54.png",
     "index.html": "/FocusMedia-OnePager/index.html",
-    "main.7a22a5ba.css.map": "/FocusMedia-OnePager/static/css/main.7a22a5ba.css.map",
-    "main.03605e3c.js.map": "/FocusMedia-OnePager/static/js/main.03605e3c.js.map",
+    "main.e415c0f5.css.map": "/FocusMedia-OnePager/static/css/main.e415c0f5.css.map",
+    "main.3061b6a0.js.map": "/FocusMedia-OnePager/static/js/main.3061b6a0.js.map",
     "453.61a56487.chunk.js.map": "/FocusMedia-OnePager/static/js/453.61a56487.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a22a5ba.css",
-    "static/js/main.03605e3c.js"
+    "static/css/main.e415c0f5.css",
+    "static/js/main.3061b6a0.js"
   ]
 }
