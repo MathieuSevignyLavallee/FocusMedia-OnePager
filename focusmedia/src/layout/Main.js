@@ -52,7 +52,7 @@ function Main() {
                             clickable: true,
                         }}
                         navigation={true}
-                        modules={[Pagination,Navigation ]}
+                        modules={[Pagination, Navigation]}
                         className="mySwiper"
                     >
                         <SwiperSlide><img src={require("../files/images/slideshow/image1.jpg")} alt='slideshow img'></img></SwiperSlide>
@@ -76,14 +76,14 @@ function Main() {
                     </Swiper>
                 </>
             </section>
-            <section id="section3" style={{ paddingTop: '20px',position: 'relative'}}>
+            <section id="section3" style={{ paddingTop: '20px', position: 'relative' }}>
                 <Services></Services>
                 <div>
-                <button className="button" id="price" onClick={() => window.location.href = 'https://portal.spiro.media/order/focmed/service-focusmedia'}>
-                Réservation/Prix
-                </button>
+                    <button className="button" id="price" onClick={() => window.open('https://portal.spiro.media/order/focmed/service-focusmedia', '_blank')}>
+                        Réservation/Prix
+                    </button>
                 </div>
-                
+
             </section>
         </main>
     );

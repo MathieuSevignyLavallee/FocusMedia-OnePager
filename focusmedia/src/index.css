@@ -103,8 +103,7 @@ button:hover {
 }
 
 /* Styles spécifiques pour le bouton de booking */
-.button {
-  font-weight: bold; /* Rend le texte en gras */
+.button {/* Rend le texte en gras */
   letter-spacing: 1px; /* Espacement des lettres pour un look premium */
   width: auto; /* Permet au bouton de s'adapter au texte */
   display: inline-block; /* Assure que le bouton est bien aligné */
@@ -133,14 +132,13 @@ p {
     height: 40px; /* Smaller logo for mobile */
   }
 
-  .service-item {
-    width: 100%; /* Full width on mobile for better visibility */
-    margin: 10px 0; /* Reduced margin */
-  }
-
   header {
     flex-direction: column; /* Stack elements vertically in smaller screens */
     text-align: center;
+  }
+
+  header h4 {
+    font-size: 0.9rem !important;
   }
 
   .footer-info, .footer-email {
@@ -165,12 +163,12 @@ p {
 
   .item2 p {
     color: 'white';
-    font-size: 1.2rem !important;
+    font-size: 1.1rem !important;
   }
   
   .item3 p, .item3 a {
     color: #8b8a8a;
-    font-size: 1rem !important;
+    font-size: 0.8rem !important;
   }
 
   .grid-container {
@@ -185,7 +183,6 @@ p {
     border: 1px solid black;
     font-size: 5px;
   }
-
 }
 
 .swiper-button-prev, .swiper-button-next{

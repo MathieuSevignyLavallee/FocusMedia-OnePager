@@ -39,7 +39,7 @@ function Services() {
                 <div class="card">
                     <div class="card-content">
                         <h2 class="card-title">Vidéographie immobilière</h2>
-                        <p class="card-text">Notre service de vidéographie immobilière donne vie à votre propriété grâce à des vidéos captivantes et professionnelles.Que ce soit pour présenter une maison, un appartement, un terrain ou un espace commercial, nos vidéos immobilières offrent une expérience immersive aux spectateurs, les aidant à se projeter et à se connecter émotionnellement avec la propriété. Avec une attention particulière aux détails et à l'esthétique, nous vous offrons un outil puissant pour attirer l'attention des acheteurs potentiels et pour mettre en valeur le potentiel de votre bien immobilier
+                        <p class="card-text">Notre service de vidéographie immobilière donne vie à votre propriété grâce à des vidéos captivantes et professionnelles. Que ce soit pour présenter une maison, un appartement, un terrain ou un espace commercial, nos vidéos immobilières offrent une expérience immersive aux spectateurs, les aidant à se projeter et à se connecter émotionnellement avec la propriété. Avec une attention particulière aux détails et à l'esthétique, nous vous offrons un outil puissant pour attirer l'attention des acheteurs potentiels et pour mettre en valeur le potentiel de votre bien immobilier
                         </p>
                     </div>
                     <img src={require("../files/images/services/video.jpg")} alt="Placeholder Image" />
