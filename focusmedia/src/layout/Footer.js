@@ -59,16 +59,16 @@ function Footer() {
 
     return (
         <footer id='footer'>
-            <div class="grid-container">
-                <div class="item1" style={{ borderBottomColor: 'white', alignContent: 'left' }}>
+            <div className="grid-container">
+                <div className="item1" style={{ borderBottomColor: 'white', alignContent: 'left' }}>
                     <img src={logo} alt="Logo" style={{
                         height: isMobile ? '50px' : '60px',
                         width: 'auto',
                         marginLeft: '10px'
                     }} />
                 </div>
-                <div class="item2" style={{ borderBottomColor: 'white' }}><p style={{ marginLeft: '10px' }}>Contacter nous</p></div>
-                <div class="item3">
+                <div className="item2" style={{ borderBottomColor: 'white' }}><p style={{ marginLeft: '10px' }}>Contacter nous</p></div>
+                <div className="item3">
                     <div style={{ marginLeft: '10px' }}>
                         <p>Felix Renaud</p>
                         <p><a href="mailto:info@thisisfocusmedia.com">info@thisisfocusmedia.com</a></p>
@@ -78,7 +78,7 @@ function Footer() {
 
                     </div>
                 </div>
-                <div class="item4">
+                <div className="item4">
                     <form onSubmit={sendEmail}>
                         <div className="form-group">
                             <input
