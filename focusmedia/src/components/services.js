@@ -25,7 +25,7 @@ function Services() {
                 </div>
             </ScrollAnimation>
 
-            <ScrollAnimation animateIn='bounceInRight'animateOnce={true} >
+            <ScrollAnimation animateIn='bounceInRight' animateOnce={true} >
                 <div class="card">
                     <img src={require("../files/images/services/plan.jpg")} alt="Placeholder Image" />
                     <div class="card-content">

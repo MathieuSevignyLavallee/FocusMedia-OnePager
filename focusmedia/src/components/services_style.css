@@ -1,4 +1,4 @@
-.cards-box{
+.cards-box {
     width: 65%;
     display: inline-block;
 }
@@ -38,8 +38,27 @@
     text-align: justify !important;
 }
 
+.services-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-item {
+    margin: 20px;
+    padding: 10px;
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+
 @media (max-width: 900px) {
-    .cards-box{
+    .cards-box {
         width: 100%;
     }
 
@@ -58,10 +77,10 @@
         font-weight: bold;
         margin-bottom: 10px;
     }
-    
+
     .card-text {
-        font-size:0.8rem;
+        font-size: 0.8rem;
         color: #666;
-        text-align:justify !important;
+        text-align: justify !important;
     }
 }

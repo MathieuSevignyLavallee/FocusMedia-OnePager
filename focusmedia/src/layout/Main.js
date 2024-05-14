@@ -18,19 +18,19 @@ function Main() {
             <section id="section1" style={{
                 position: 'relative',
                 width: '100%',
-                height: isMobile ? '50vh' : '75vh',  // Use viewport height for responsive sizing
+                height: isMobile ? '50vh' : '75vh',  
                 overflow: 'hidden'
             }}>
                 <video
                     style={{
-                        width: '100%',  // Ensures the video is responsive
-                        height: '100%',  // Maintains aspect ratio while covering the section
-                        objectFit: 'cover',  // Ensures the video covers the section area without stretching
+                        width: '100%', 
+                        height: '100%',  
+                        objectFit: 'cover',  
                         position: 'absolute',
                         top: '50%',
                         left: '50%',
-                        transform: 'translate(-50%, -50%)',  // Center the video
-                        pointerEvents: isMobile ? 'none' : 'auto'  // Disables clicking on mobile
+                        transform: 'translate(-50%, -50%)',  
+                        pointerEvents: isMobile ? 'none' : 'auto'  
                     }}
                     src={video}
                     autoPlay

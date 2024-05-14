@@ -1,0 +1,36 @@
+header img {
+    height: 60px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+@media (max-width: 900px) {
+    header img {
+        height: 40px;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header h4 {
+        font-size: 0.9rem !important;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        margin: 5px 0;
+    }
+}

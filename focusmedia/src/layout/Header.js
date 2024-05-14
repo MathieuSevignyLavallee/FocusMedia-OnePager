@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../files/images/HorizontalClearLogo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faTiktok } from '@fortawesome/free-brands-svg-icons';
+import './style/header.css';
 
 function Header() {
     return (

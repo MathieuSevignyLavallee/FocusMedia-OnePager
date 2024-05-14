@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../files/images/HorizontalClearLogo.png';
 import emailjs from "emailjs-com";
+import './style/footer.css';
 
 function Footer() {
 
@@ -66,9 +67,9 @@ function Footer() {
                         marginLeft: '10px'
                     }} />
                 </div>
-                <div class="item2" style={{ borderBottomColor: 'white' }}><p style={{marginLeft: '10px'}}>Contacter nous</p></div>
+                <div class="item2" style={{ borderBottomColor: 'white' }}><p style={{ marginLeft: '10px' }}>Contacter nous</p></div>
                 <div class="item3">
-                    <div style={{marginLeft: '10px'}}>
+                    <div style={{ marginLeft: '10px' }}>
                         <p>Felix Renaud</p>
                         <p><a href="mailto:info@thisisfocusmedia.com">info@thisisfocusmedia.com</a></p>
                         <p><a href="tel:+15149790003">514-979-0003</a></p>

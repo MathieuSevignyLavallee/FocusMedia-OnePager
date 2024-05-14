@@ -2,18 +2,19 @@ body {
   font-family: 'bai jamjuree', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: white; 
-  color: white; 
+  background-color: white;
+  color: white;
 }
 
-header, footer {
-  background-color: black; 
+header,
+footer {
+  background-color: black;
   color: white;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 a {
@@ -30,194 +31,52 @@ img {
   height: auto;
 }
 
-/* Styles pour le header */
-header img {
-  height: 60px;
-}
-
-header nav ul {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-}
-
-header nav ul li {
-  margin: 0 10px;
-}
-
 main {
   padding: 20px;
   text-align: center;
 }
 
-.services-list {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.service-item {
-  margin: 20px;
-  padding: 10px;
-  background-color: #222; 
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); 
-  width: 300px; 
-  text-align: center;
-  font-size: 18px;
-}
-
-/* Styles pour le footer */
-footer {
-  display: flex;
-  justify-content: center;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5); 
-}
-
-input[type="email"], textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: none;
-  border-radius: 4px;
-  background-color: #222;
-  color: white;
-}
-
 button {
   background-color: #ff0000;
   border: none;
-  padding: 15px 30px; 
-  border-radius: 8px; 
-  font-size: 18px; 
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 18px;
   color: white;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 button:hover {
   background-color: #cc0000;
 }
 
-/* Styles spécifiques pour le bouton de booking */
-.button {/* Rend le texte en gras */
-  letter-spacing: 1px; /* Espacement des lettres pour un look premium */
-  width: auto; /* Permet au bouton de s'adapter au texte */
-  display: inline-block; /* Assure que le bouton est bien aligné */
-  margin-top: 20px; /* Espacement au-dessus pour délimiter clairement des autres éléments */
+.button {
+  letter-spacing: 1px;
+  width: auto;
+  display: inline-block;
+  margin-top: 20px;
 }
 
 p {
   color: #cec7c7;
 }
 
-.grid-container {
-  display: grid;
-  width: 70%;
-  grid-template-columns: 50% 50%;
-  gap: 10px;
-  padding: 10px;
-}
-
-.grid-container > div {
-  border: 1px solid black;
-  font-size: 30px;
-}
-
 @media (max-width: 900px) {
-  header img {
-    height: 40px; /* Smaller logo for mobile */
-  }
-
-  header {
-    flex-direction: column; /* Stack elements vertically in smaller screens */
-    text-align: center;
-  }
-
-  header h4 {
-    font-size: 0.9rem !important;
-  }
-
-  .footer-info, .footer-email {
-    margin: 10px 10px;
-  }
 
   main {
-    padding: 10px; /* Reduced padding */
+    padding: 10px;
   }
 
   button {
-    padding: 12px 24px; /* Slightly smaller buttons */
+    padding: 12px 24px;
     font-size: 0.9rem;
   }
 
-  header nav ul {
-    flex-direction: column; /* Stack nav items vertically */
-  }
-
-  header nav ul li {
-    margin: 5px 0; /* Reduced margin */
-  }
-
-  .item2 p {
-    color: 'white';
-    font-size: 1.1rem !important;
-  }
-  
-  .item3 p, .item3 a {
-    color: #8b8a8a;
-    font-size: 0.8rem !important;
-  }
-
-  .grid-container {
-    display: grid;
-    width: 100%;
-    grid-template-columns: 50% 50%;
-    gap: 10px;
-    padding: 10px;
-  }
-  
-  .grid-container > div {
-    border: 1px solid black;
-    font-size: 5px;
-  }
 }
 
-.swiper-button-prev, .swiper-button-next{
-  color:white !important;
-}
-
-.item2 p {
-  color: 'white';
-  font-size: 1.7rem;
-}
-
-.item3 p, .item3 a {
-  color: #8b8a8a;
-  font-size: 1.4rem;
-}
-
-.item4 input,
-.item4 textarea,
-.item4  {
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  margin: 2px;
-}
-
-.item4 button {
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-.item4 button:hover {
-  background-color: #555;
+.swiper-button-prev,
+.swiper-button-next {
+  color: white !important;
 }
