@@ -4,7 +4,7 @@ import emailjs from "emailjs-com";
 
 function Footer() {
 
-    const isMobile = window.innerWidth <= 600;
+    const isMobile = window.innerWidth <= 900;
 
     function sendEmail(e) {
         e.preventDefault();

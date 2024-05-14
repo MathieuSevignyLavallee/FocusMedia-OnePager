@@ -11,7 +11,7 @@ import 'swiper/css/navigation';
 
 function Main() {
 
-    const isMobile = window.innerWidth <= 600;
+    const isMobile = window.innerWidth <= 900;
 
     return (
         <main>

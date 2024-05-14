@@ -127,7 +127,7 @@ p {
   font-size: 30px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   header img {
     height: 40px; /* Smaller logo for mobile */
   }
@@ -151,6 +151,7 @@ p {
 
   button {
     padding: 12px 24px; /* Slightly smaller buttons */
+    font-size: 0.9rem;
   }
 
   header nav ul {
