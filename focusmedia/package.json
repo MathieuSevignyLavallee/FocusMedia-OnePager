@@ -1,7 +1,6 @@
 {
   "name": "focusmedia",
   "version": "0.1.0",
-  "homepage": "https://mathieusevignylavallee.github.io/FocusMedia-OnePager",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
