@@ -2,7 +2,8 @@ import React from 'react';
 import video from '../files/videos/FocusMedia_Kick_off.mp4';
 import { Pagination, Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Services from '../components/services'
+import Services from '../components/services';
+import { Analytics } from "@vercel/analytics/react";
 
 // Import Swiper styles
 import 'swiper/css';
@@ -85,6 +86,7 @@ function Main() {
                 </div>
 
             </section>
+            <Analytics />
         </main>
     );
 }
