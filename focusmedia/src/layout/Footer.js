@@ -67,7 +67,7 @@ function Footer() {
                         marginLeft: '10px'
                     }} />
                 </div>
-                <div className="item2" style={{ borderBottomColor: 'white' }}><p style={{ marginLeft: '10px' }}>Contacter nous</p></div>
+                <div className="item2" style={{ borderBottomColor: 'white' }}><p style={{ marginLeft: '10px' }}>Contactez nous</p></div>
                 <div className="item3">
                     <div style={{ marginLeft: '10px' }}>
                         <p>Felix Renaud</p>
