@@ -56,24 +56,24 @@ function Main() {
                         modules={[Pagination, Navigation]}
                         className="mySwiper"
                     >
-                        <SwiperSlide><img src={require("../files/images/slideshow/image1.jpg")} alt='slideshow img'></img></SwiperSlide>
-                        <SwiperSlide><img src={require("../files/images/slideshow/image2.jpg")} alt='slideshow img'></img></SwiperSlide>
-                        <SwiperSlide><img src={require("../files/images/slideshow/image3.jpg")} alt='slideshow img'></img></SwiperSlide>
-                        <SwiperSlide><img src={require("../files/images/slideshow/image4.jpg")} alt='slideshow img'></img></SwiperSlide>
-                        <SwiperSlide><img src={require("../files/images/slideshow/image5.jpg")} alt='slideshow img'></img></SwiperSlide>
-                        <SwiperSlide><img src={require("../files/images/slideshow/image6.jpg")} alt='slideshow img'></img></SwiperSlide>
-                        <SwiperSlide><img src={require("../files/images/slideshow/image7.jpg")} alt='slideshow img'></img></SwiperSlide>
-                        <SwiperSlide><img src={require("../files/images/slideshow/image8.jpg")} alt='slideshow img'></img></SwiperSlide>
-                        <SwiperSlide><img src={require("../files/images/slideshow/image9.jpg")} alt='slideshow img'></img></SwiperSlide>
-                        <SwiperSlide><img src={require("../files/images/slideshow/image10.jpg")} alt='slideshow img'></img></SwiperSlide>
-                        <SwiperSlide><img src={require("../files/images/slideshow/image11.jpg")} alt='slideshow img'></img></SwiperSlide>
-                        <SwiperSlide><img src={require("../files/images/slideshow/image12.jpg")} alt='slideshow img'></img></SwiperSlide>
-                        <SwiperSlide><img src={require("../files/images/slideshow/image13.jpg")} alt='slideshow img'></img></SwiperSlide>
-                        <SwiperSlide><img src={require("../files/images/slideshow/image14.jpg")} alt='slideshow img'></img></SwiperSlide>
-                        <SwiperSlide><img src={require("../files/images/slideshow/image15.jpg")} alt='slideshow img'></img></SwiperSlide>
-                        <SwiperSlide><img src={require("../files/images/slideshow/image16.jpg")} alt='slideshow img'></img></SwiperSlide>
-                        <SwiperSlide><img src={require("../files/images/slideshow/image17.jpg")} alt='slideshow img'></img></SwiperSlide>
-                        <SwiperSlide><img src={require("../files/images/slideshow/image18.jpg")} alt='slideshow img'></img></SwiperSlide>
+                        <SwiperSlide><img src={require("../files/images/slideshow/1440p/image1.jpg")} alt='slideshow img'></img></SwiperSlide>
+                        <SwiperSlide><img src={require("../files/images/slideshow/1440p/image2.jpg")} alt='slideshow img'></img></SwiperSlide>
+                        <SwiperSlide><img src={require("../files/images/slideshow/1440p/image3.jpg")} alt='slideshow img'></img></SwiperSlide>
+                        <SwiperSlide><img src={require("../files/images/slideshow/1440p/image4.jpg")} alt='slideshow img'></img></SwiperSlide>
+                        <SwiperSlide><img src={require("../files/images/slideshow/1440p/image5.jpg")} alt='slideshow img'></img></SwiperSlide>
+                        <SwiperSlide><img src={require("../files/images/slideshow/1440p/image6.jpg")} alt='slideshow img'></img></SwiperSlide>
+                        <SwiperSlide><img src={require("../files/images/slideshow/1440p/image7.jpg")} alt='slideshow img'></img></SwiperSlide>
+                        <SwiperSlide><img src={require("../files/images/slideshow/1440p/image8.jpg")} alt='slideshow img'></img></SwiperSlide>
+                        <SwiperSlide><img src={require("../files/images/slideshow/1440p/image9.jpg")} alt='slideshow img'></img></SwiperSlide>
+                        <SwiperSlide><img src={require("../files/images/slideshow/1440p/image10.jpg")} alt='slideshow img'></img></SwiperSlide>
+                        <SwiperSlide><img src={require("../files/images/slideshow/1440p/image11.jpg")} alt='slideshow img'></img></SwiperSlide>
+                        <SwiperSlide><img src={require("../files/images/slideshow/1440p/image12.jpg")} alt='slideshow img'></img></SwiperSlide>
+                        <SwiperSlide><img src={require("../files/images/slideshow/1440p/image13.jpg")} alt='slideshow img'></img></SwiperSlide>
+                        <SwiperSlide><img src={require("../files/images/slideshow/1440p/image14.jpg")} alt='slideshow img'></img></SwiperSlide>
+                        <SwiperSlide><img src={require("../files/images/slideshow/1440p/image15.jpg")} alt='slideshow img'></img></SwiperSlide>
+                        <SwiperSlide><img src={require("../files/images/slideshow/1440p/image16.jpg")} alt='slideshow img'></img></SwiperSlide>
+                        <SwiperSlide><img src={require("../files/images/slideshow/1440p/image17.jpg")} alt='slideshow img'></img></SwiperSlide>
+                        <SwiperSlide><img src={require("../files/images/slideshow/1440p/image18.jpg")} alt='slideshow img'></img></SwiperSlide>
                     </Swiper>
                 </>
             </section>
