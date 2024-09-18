@@ -72,7 +72,7 @@ function Footer() {
                     <div style={{ marginLeft: '10px' }}>
                         <p>Felix Renaud</p>
                         <p><a href="mailto:info@thisisfocusmedia.com">info@thisisfocusmedia.com</a></p>
-                        <p><a href="tel:+15149790003">514-979-0003</a></p>
+                        <p><a href="tel:+12638770222">263-877-0222</a></p>
                         <p><a href="https://www.instagram.com/thisisfocusmedia" target="_blank" rel="noopener noreferrer">Instagram</a></p>
                         <p><a href="https://www.tiktok.com/@thisisfocusmedia" target="_blank" rel="noopener noreferrer">TikTok</a></p>
 
